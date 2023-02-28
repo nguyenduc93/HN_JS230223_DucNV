@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    margin: 0 30px;
+}
+.header span{
+    background-color: antiquewhite;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+.nav{
+    height: 600px;
+    margin: 0 30px;
+    display: flex;
+}
+.nav img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.name{
+    display: block;
+    position: absolute;
+    z-index: 999;
+    margin-top: 300px;
+    margin-left: 20px;
+    line-height: 30px;
+    color: white;
+}
+.nav .name input{
+    height: 30px;
+}
+.article{
+    display: flex;
+    margin: 30px;
+    background-color: antiquewhite;
+    padding: 0 20px;
+}
+.left{
+    width: 70%;
+}
+.item_1{
+    width: 90%;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.item_1 p{
+    padding: 20px 60px 0;
+    text-align: justify;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px
+}
+.icon_1{
+    border: 1px solid gray;
+    width: 70px;
+}
+.icon_2{
+    background-color: black;
+    width: 70px;
+    padding-top: 5px;
+}
+.photo_1{
+    display: flex;
+    margin-top: 20px;
+}
+.photo_1 img{
+    height: 100px;
+    width: 100px;
+}
+.photo_1 p{
+    padding-left: 30px;
+    line-height: 30px;
+}
+.right{
+    width: 30%;
+    margin-top: 20px;
+}
+.item_2{
+    border: 1px solid white;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+.item_2 img{
+    width: 100%;
+}
+.content{
+    padding: 20px;
+}
+.post img{
+    height: 100px;
+    width: 100px;
+}
+.popular{
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid white;
+}
+.post{
+    display: flex;
+    padding: 10px;
+}
+.polular_1{
+    color: white;
+    height: 50px;
+    background-color: black;
+    padding: 12px;
+}
+.post_1{
+    padding: 20px 0 0 20px;
+    line-height: 30px;
+}
+.avertise{
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.av_1{
+    color: white;
+    height: 50px;
+    background-color: black;
+    padding: 12px;
+}
+.av_2{
+   border: 1px solid white;
+   margin: 10px;
+   background-color: aliceblue;
+   height: 200px;
+   text-align: center;
+    padding-top: 90px;
+}
+.tags_1{
+    padding: 20px;
+    line-height: 30px;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+.tags_1 .tags_2{
+    border: 1px solid gainsboro;
+    background-color: black;
+    color: white;
+}
+.tags_1 span{
+    background-color: antiquewhite;
+}
+.ins_1{
+    display: flex;
+    padding: 15px;
+}
+.ins_1 img{
+    width: 150px;
+    height: 120px;
+}
+.inspiration{
+    margin-top: 30px;
+    border: 1px solid white;
+}
